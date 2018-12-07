@@ -1,4 +1,4 @@
-DOCKER_IMAGE_NAME=dwi67/docker-kafka-manager
+DOCKER_IMAGE_NAME=dwi67/kafka-manager
 DOCKER_IMAGE_VERSION=latest
 
 docker rmi --force=true ${DOCKER_IMAGE_NAME}:${DOCKER_IMAGE_VERSION}
